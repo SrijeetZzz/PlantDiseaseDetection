@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <style>
+    
+    .contact1 h1{
+  font-family: 100;
+  font-size: 40px;
+  font-family:'Times New Roman', Times, serif;
+  margin: 10px;
+}
+
+.box1{
+  margin-left: 6rem;
+  margin-top: 3rem;
+  width: 25%;
+  background-color: rgb(44, 152, 210);
+  padding-bottom: 5rem;
+  border: 1px solid black;
+}
+.box1 h3{
+  padding-top: 30px;
+  padding-left: 30px;
+  color: #fff;
+}
+.box1 span{
+  padding-left: 30px;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+}
+.box1  a{
+  font-size: 15px;
+  font-weight: 200;
+  text-decoration: none;
+}
+.box1 h6{
+  padding-left: 30px;
+  color: #fff;
+  margin-top: 30px;
+  font-weight: 500;
+}
+
+.call{
+  display: flex;
+  padding-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.box1 h5{
+  padding-left: 30px;
+  font-size: 10px;
+}
+.box1 .social{
+  padding-left: 30px;
+  margin-top: 6rem;
+  
+}
+.box1 .social i{
+  margin: 0.6rem;
+  font-size: 25px;
+  color: rgba(255, 255, 255, 0.759);
+  
+}
+
+
+ .detail label,input{
+  display:block;
+  
+}
+.detail input{
+  margin-bottom: 20px;
+  padding: 10px;
+  width:20rem;
+}
+.detail{
+  padding-left: 6rem;
+}
+
+ .detail2 label,input{
+  display:block;
+  
+}
+.detail2 input{
+  margin-bottom: 20px;
+  padding: 10px;
+  width:20rem;
+}
+.detail2{
+  padding-left: 6rem;
+}
+.form label{
+  margin-top: 3rem;
+
+}
+
+.form {
+  display: flex;
+}
+
+.contact{
+  display: flex;
+  padding-bottom: 6rem;
+}
+
+.box2{
+  margin-right: 6rem;
+  margin-top: 3rem;
+  width: 70%;
+  background-color: rgb(157, 229, 236);
+  
+  border: 1px solid black;
+}
+
+.check{
+  margin-left: 6rem;
+  margin-top: 4rem;
+}
+
+
+.box2 .btn{
+  font-size: 10px;
+  border-radius: 4px;
+  margin-left: 6rem;
+}
+  </style>
+</head>
+<body>
+  <div class="contact1">
+    <h1><center>Contact Us</center></h1>
+    <!-- <span><center>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel facere, aliquid dolorem id quasi optio!</center></span>
+    <span><center>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</center></span> -->
+  </div>
+  <div class="contact">
+    <div class="box1">
+      <h3>Contact Business <br/> Solution Sales</h3>
+      <span>Already a customer or need help with a</span><br/>
+      <span>billing issues? </span>
+      <a href="#">Contact Support</a>
+      
+      <div class="call">
+        <div class="call1">
+          <i class="fa-solid fa-phone"></i>
+        </div>
+        <div class="call2">9831045445</div>
+      </div>
+      <!-- <span>Lorem ipsum dolor sit amet, consectetur.</span>
+      <h5>Lorem, ipsum dolor sit amet consectetur adipisicing.</h5> -->
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <div class="box2">
+      <div class="form">
+        <div class="detail">
+          <label for="/">First Name:</label>
+          <input type="text" name="" id="" placeholder="First Name"/>
+          <label for="/">Email:</label>
+          <input type="email" name="" id="" placeholder="Email Address"/>
+          <label for="/">Address:</label>
+          <input type="text" name="" id="" placeholder="Phone Number"/>
+        </div>
+        <div class="detail2">
+          <label for="/">Last Name:</label>
+          <input type="text" name="" id="" placeholder="Last Name"/>
+          <label for="/">Alternative Phone Number:</label>
+          <input type="number" name="" id="" placeholder="Phone Number"/>
+          
+        </div>
+      </div>
+      <!-- <div class="check">
+        <label for="vehicle1">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</label>
+        <label for="vehicle2">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</label>
+      </div> -->
+      <div class="btn">
+        <button id="submit-btn">Submit</button>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const submitButton = document.getElementById('submit-btn');
+
+      submitButton.addEventListener('click', function() {
+        alert('Thanks for your Coordination');
+      });
+    });
+  </script>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>

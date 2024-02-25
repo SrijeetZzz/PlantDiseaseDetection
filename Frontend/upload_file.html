@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Page</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='upload_file.css') }}">
+</head>
+<body>
+    <div class="upload">
+        <main>
+            <h1>Upload a file</h1>
+            <form action="/" method="post" enctype="multipart/form-data">
+                <label for="file">File</label>
+                <input type="file" name="imagefile">
+                <br></br>
+                <button type="submit">Upload</button>
+            </form>
+        
+            {% if prediction_result %}
+                <h2>Prediction Result:</h2>
+                {% if prediction_result.error %}
+                    <p>Error: {{ prediction_result.error }}</p>
+                {% else %}
+                    <p>Disease name: {{ prediction_result.prediction }}</p>
+                    <!-- <p>Predicted Probability: {{ prediction_result.predicted_probability }}</p> -->
+                {% endif %}
+            {% endif %}
+        </main>
+    </div>
+</body>
+</html>

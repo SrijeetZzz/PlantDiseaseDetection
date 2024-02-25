@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <style>
+    .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.page{
+  height:100vh;
+  width:100vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.nav2 {
+  overflow:hidden;
+  background-color:#033605;
+}
+.nav2  ul a:hover{
+  text-decoration: none;
+
+
+}
+
+
+  /* a:hover { 
+    text-decoration: none; }
+  } 
+  a:active { 
+    text-decoration:none;
+  } */
+
+.nav2 li{
+  float: left;
+  display: block;
+  color: #208aa7;
+  text-align:center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style-type: none;
+  display: flex;
+  position:  left;
+}
+.nav-links li {
+  margin-left: 30px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  position: left;
+}
+
+
+
+
+.Full{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.column{
+  float: left;
+  width: 50%;
+  
+}
+.column img{
+  height: 45rem;
+
+  width: 100%;
+  padding: 0;
+  
+}
+
+.head{
+  
+  float:left;
+  background-color: #f5f6f7;
+  position:relative;
+  padding: 3rem ;
+  width: 40%;
+  height: 623px;
+
+}
+input{
+    margin: 0.6rem 0;
+    width:70%;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+    background-color: #e3e5e8;
+
+}
+.input{
+  font-size: larger;
+}
+button {
+  border:none;
+  padding: 10px;
+  width:75%;
+  border-radius: 12px;
+  cursor: pointer;
+  color: rgb(17, 15, 15); 
+  
+  /* margin-top: 2rem; */
+  height: 20%;
+  background-color: #166d3b;
+    background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+  color: white;
+  margin-top: 20px;
+}
+.signpp{
+  width:80%;
+  padding-left: 6rem;
+}
+button :hover{
+  cursor: pointer;
+}
+.link-btn {
+  border:none;
+  background-color:#e3e5e8;
+  padding: 10px;
+  width:75%;
+  border-radius: 12px;
+  cursor: pointer;
+  color: white; 
+  font-size: 12px;
+  height: 20%;
+  
+  margin-top: 20px;
+  
+}
+.link-btn a{
+  text-decoration: none;
+  color: white;
+}
+.messages{
+  display: flex;
+  justify-content: center;
+}
+.error{
+  display: block;
+  background-color: rgb(129, 136, 136);
+  color: aliceblue;
+  width:fit-content;
+  height: fit-content;
+  
+}
+.success{
+  display:  block;
+  background-color: rgb(13, 13, 13);
+  color: bisque;
+  width:fit-content;
+  height:fit-content;
+  
+}
+
+body {
+  margin: 0;
+  padding:0%;
+  line-height: normal;
+  height: 100%;
+  width: 100%;
+
+ 
+}
+.pic1 {
+ 
+  position: relative;
+  height: 80%;
+  width: 80%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  justify-content: center;
+  
+   
+}
+
+.head h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: flex;
+  justify-content:center;
+}
+
+
+
+
+
+
+
+
+
+
+  </style>
+</head>
+<body>
+  <section>
+    <div class="Full">
+      <div class="column">
+        <img class="pic1" src="https://i.pinimg.com/474x/5e/67/5f/5e675f92528c2296ed6911b4222bfeed.jpg" alt=""/>
+      </div>
+      <div class="head">
+        <h2>Get Started</h2>
+        <div class="messages">
+          <div class="error" style="display: none;">
+            <h1>Please enter all the fields</h1>
+          </div>
+          <div class="success" style="display: none;">
+            <h1>User successfully registered.</h1>
+          </div>
+        </div>
+        <section>
+          <form id="signup-form" class="signpp">
+            <input type="text" id="name" class="input" placeholder="Name">
+            <input type="email" id="email" class="input" placeholder="Email">
+            <input type="password" id="password" class="input" placeholder="Password">
+            <button id="signup-btn" class="btn" type="submit">Sign Up</button>
+            <button class="link-btn">
+              <a class="link" href="signin.html">Already have an account? <strong>Sign In</strong></a>
+            </button>
+          </form>
+        </section>
+      </div>
+    </div>
+  </section>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const signupForm = document.getElementById('signup-form');
+      const nameInput = document.getElementById('name');
+      const emailInput = document.getElementById('email');
+      const passwordInput = document.getElementById('password');
+      const errorDiv = document.querySelector('.error');
+      const successDiv = document.querySelector('.success');
+
+      signupForm.addEventListener('submit', function(event) {
+        event.preventDefault();
+        const name = nameInput.value.trim();
+        const email = emailInput.value.trim();
+        const password = passwordInput.value.trim();
+        if (!name || !email || !password) {
+          errorDiv.style.display = 'block';
+          successDiv.style.display = 'none';
+        } else {
+          errorDiv.style.display = 'none';
+          successDiv.style.display = 'block';
+          // Here you can perform further actions like sending form data to a server
+        }
+      });
+    });
+  </script>
+</body>
+</html>
