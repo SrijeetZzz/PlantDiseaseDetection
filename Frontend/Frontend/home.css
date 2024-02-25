@@ -1,0 +1,150 @@
+.background-img{
+    width: 70%;
+}
+    
+
+
+.container{
+    /* position: relative; */
+    color: green;
+    float: left;
+    height: 650px;
+}
+
+.top-left-text{
+    /* position: absolute; */
+    /* position: relative; */
+    float: left;
+    width: 50%;
+    color:rgb(41, 57, 41);
+    top:8px;
+    left:16px;
+    padding-left: 15rem;
+    padding-top: 5rem;
+    padding-right: 6rem;
+    font-size: larger;
+    font-weight: bold;
+    height:25rem;
+    /* width: 36rem; */
+    
+}
+.start-now{
+    height: 10%;
+    width: 30%;
+    background-color: darkolivegreen;
+}
+.top-right-picture{
+    align-items: right;
+
+
+}
+.top-right {
+    position: absolute;
+    height: 36rem;
+    width: 30rem;
+    padding-top: 3rem;
+    padding-left: 1rem;
+}
+.slide h1{
+    color:aliceblue;
+}
+.container-about{
+    float:left;
+    width: 100%;
+    z-index: 1;
+    background-color:#033605;
+    /* padding: 3rem; */
+    text-align: center;
+    height: 100%;
+
+}
+.about-text{
+    color: rgb(244, 241, 241);
+}
+/* .upload{
+    height: 2rem;
+    width: 13rem;
+} */
+.service{
+    float:left;
+    width: 100%;
+    z-index: 1;
+}
+.third img{
+    height: 100%;
+    width: 100%;
+    float: right;
+    justify-content: right;
+    padding-top: 1rem;
+    
+}
+.top-left-service-text{
+    float: left;
+    width: 52%;
+    color:rgb(41, 57, 41);
+    top:0;
+    left:0;
+    /* padding-left: 15rem; */
+    padding-top: 3rem;
+    padding-left: 7rem;
+    font-size: 22px;
+    font-weight: bold;
+    height:25rem;
+}
+.service2{
+    float:left;
+    width: 100%;
+    z-index: 1;
+    padding-top: 1rem;
+    background-color:#033605;
+    
+}
+.fourth{
+    float: left;
+    /* text-align:left; */
+    padding-left: 4rem;
+    height: 40%;
+    width: 40%;
+    left:0;
+}
+.four-service{
+    font-size: 22px;
+    font-weight: bold;
+    color:white;
+    /* width: 52%; */
+}
+.service3{
+    float:left;
+    width: 100%;
+    z-index: 1;
+    padding-top: 1rem;
+}
+.fifth{
+    height: 45%;
+    width: 42%;
+    padding-top:0 ;
+}
+.fifth-service{
+    float: left;
+    width: 52%;
+    color:rgb(41, 57, 41);
+    top:0;
+    left:0;
+    /* padding-left: 15rem; */
+    padding-top: 1rem;
+    padding-left: 4rem;
+    font-size: 22px;
+    font-weight: bold;
+    height:25rem;
+}
+.footer{
+    float:left;
+    width: 100%;
+    z-index: 1;
+    background-color:#033605;
+    color: white;
+
+}
+
+
+

@@ -1,0 +1,135 @@
+/* Home_page.css */
+
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   color: #fff8dd;
+}
+
+header {
+    background-color: #033605;
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: left;
+}
+
+.search {
+    position: relative;
+}
+
+.material-symbols-outlined {
+    position: left;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #999; /* Color of the search icon */
+    font-size: 20px;
+    
+}
+
+.search-input {
+    padding: 10px 40px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    width: 300px; /* Adjust as needed */
+    
+}
+.search-input::placeholder {
+    color: #999; /* Color of the placeholder text */
+}
+
+/* Style on focus */
+.search-input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Example shadow effect */
+}
+
+.navbar {
+    display: flex;
+    position: left;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    position:  left;
+}
+
+.nav-links li {
+    margin-left: 30px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: color 0.3s ease;
+    position: left;
+}
+
+.nav-links li a:hover {
+    color: #ffd700; /* Change color on hover */
+}
+h2{
+    color: #255c27;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-display: flex;
+    font-stretch: expanded;
+    margin: 10px;
+    letter-spacing: 1px;
+
+    
+}
+h5{
+    color:#999;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: normal;
+    padding: 20px;
+    letter-spacing: 1px;
+    
+}
+.container{
+    padding: 100px 100px;
+    position: left;
+    color: #fff8dd;
+}
+button{
+    background-color: #033605;
+    border: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 16px 20px;
+    border-radius: 30px;
+    color: #fffdf5;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+button:hover{
+    background-color: #2d6f2f;
+}
+.container3 main{
+    display:flex;
+
+}
+.container2 img{
+    padding-top: 60px;
+}
+button a {
+    text-decoration: none;
+    color: white;
+
+}
+
